@@ -29,5 +29,12 @@ Belo Horizonte - Minas Gerais -Brazil
 **VeRLab:** Laboratory of Computer Vison and Robotics   
 https://www.verlab.dcc.ufmg.br
 
+## Citation ##
+
+If you are using it for academic purposes, please cite: 
+Omar Vidal Pino, Erickson R. Nascimento, Mario F. M. Campos, __Prototypicality effects in
+global semantic description of objects__. In _WACV_, 2019.
+
+
 ## GSDP package ##
 
