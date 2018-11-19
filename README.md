@@ -39,14 +39,14 @@ If you are using GSDP for academic purposes, please cite:
      
 ### Bibtex entry ###
 
->@InProceedings{Silva2018,  
->title = {A Weighted Sparse Sampling and Smoothing Frame Transition Approach for Semantic Fast-Forward First-Person Videos},  
-booktitle = {2018 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
->author = {M. M. Silva and W. L. S. Ramos and J. P. K. Ferreira and F. C. Chamone and M. F. M. Campos and E. R. Nascimento},  
->Year = {2018},  
->Address = {Salt Lake City, USA},  
->month = {Jun.},  
->intype = {to appear in},  
+>@InProceedings{vidal2019wacv,  
+>title = {Prototypicality effects in global semantic description of objects},  
+booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},  
+>author = {Omar Vidal Pino and Erickson R. Nascimento and Mario F. M. Campos},  
+>Year = {2019},  
+>Address = {Hawaii, USA},  
+>month = {January},
+>intype = {to appear in},
 >pages = {},  
 >volume = {},  
 >number = {},  
