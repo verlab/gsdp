@@ -37,22 +37,14 @@ If you are using GSDP for academic purposes, please cite:
      Omar Vidal Pino, Erickson R. Nascimento, Mario F. M. Campos
      IEEE Winter Conference on Applications of Computer Vision (WACV), 2019
      
-### Bibtex entry ###
 
->@InProceedings{vidal2019wacv,  
->title = {Prototypicality effects in global semantic description of objects},  
-booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},  
->author = {Omar Vidal Pino and Erickson R. Nascimento and Mario F. M. Campos},  
->Year = {2019},  
->Address = {Hawaii, USA},  
->month = {January},
->intype = {to appear in},
->pages = {},  
->volume = {},  
->number = {},  
->doi = {},  
->ISBN = {}  
->}     
+## GSDP package ##
+
+### Dependencies ###
+
+* MATLAB 2016a
+* OpenCV 2.4 _(Tested with 2.4.9 and 2.4.13)_  
+* Doxygen 1 _(for documentation only - Tested with 1.8.12)_  
 
 ## Installation ##
 
