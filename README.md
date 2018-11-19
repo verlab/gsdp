@@ -48,5 +48,5 @@ If you are using GSDP for academic purposes, please cite:
 * H5py 2.7 _(Tested with 2.7.0)_ 
 * Pandas 0.20 _(Tested with 0.20.3)_ 
 
-## Installation ##
+### Installation ###
 
