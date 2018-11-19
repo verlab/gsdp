@@ -54,5 +54,5 @@ booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WAC
 >ISBN = {}  
 >}     
 
-## GSDP package ##
+## Installation ##
 
