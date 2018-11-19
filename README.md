@@ -50,6 +50,9 @@ Python![ Version](https://img.shields.io/badge/version-3.0-brightgreen.svg)
 
 ### Installation ###
 
-    $ make all -j8
-    $ make matcaffe
+    git clone git://github.com/verlab/gsdp
+    cd ~/gsdp/
+    pip install -r requirements.txt 
+    pip install .
+   
 
