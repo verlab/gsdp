@@ -39,7 +39,7 @@ If you are using GSDP for academic purposes, please cite:
      
 
 ## GSDP package ##
-![Python Version](https://img.shields.io/badge/version-3.0-brightgreen.svg)]
+Python [![ Version](https://img.shields.io/badge/version-3.0-brightgreen.svg)]
 ### Dependencies ###
 
 * Keras 2.0  _(Tested with 2.0.4)_  
