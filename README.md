@@ -33,15 +33,9 @@ https://www.verlab.dcc.ufmg.br
 
 If you are using GSDP for academic purposes, please cite:
 
-    Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks
-    Kevin Lin, Jiwen Lu, Chu-Song Chen and Jie Zhou
-    IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016
-
-If you are using it for academic purposes, please cite: 
-
-Omar Vidal Pino, Erickson R. Nascimento, Mario F. M. Campos, __Prototypicality effects in
-global semantic description of objects__. In _WACV_, 2019.
-
+     Prototypicality effects in global semantic description of objects
+     Omar Vidal Pino, Erickson R. Nascimento, Mario F. M. Campos
+     IEEE Winter Conference on Applications of Computer Vision (WACV), 2019
 
 ## GSDP package ##
 
