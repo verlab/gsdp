@@ -12,7 +12,7 @@ For more information and visual results, please access the [project page](https:
 
 ### Authors ###
 
-* Omar Vidal Pino - PhD student - UFMG - ovidalp@dcc.ufmg.com
+* Omar Vidal Pino - PhD student - UFMG - ovidalp@dcc.ufmg.br
 * Erickson Rangel do Nascimento - Advisor - UFMG - erickson@dcc.ufmg.br
 * Mario Fernando Montenegro Campos - Advisor - UFMG - mario@dcc.ufmg.br
 
