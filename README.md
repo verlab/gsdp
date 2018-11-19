@@ -42,9 +42,11 @@ If you are using GSDP for academic purposes, please cite:
 
 ### Dependencies ###
 
-* MATLAB 2016a
-* OpenCV 2.4 _(Tested with 2.4.9 and 2.4.13)_  
-* Doxygen 1 _(for documentation only - Tested with 1.8.12)_  
+* Keras 2.0  _(Tested with 2.0.4)_  
+* Tensorflow 1.1 _(Tested with 1.1.0)_
+* Matplotlib 2.0 _(Tested with 2.0.2)_  
+* H5py 2.7 _(Tested with 2.7.0)_ 
+* Pandas 0.20 _(Tested with 0.20.3)_ 
 
 ## Installation ##
 
