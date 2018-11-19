@@ -50,3 +50,6 @@ If you are using GSDP for academic purposes, please cite:
 
 ### Installation ###
 
+    $ make all -j8
+    $ make matcaffe
+
