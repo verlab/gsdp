@@ -29,3 +29,5 @@ Belo Horizonte - Minas Gerais -Brazil
 **VeRLab:** Laboratory of Computer Vison and Robotics   
 https://www.verlab.dcc.ufmg.br
 
+## GSDP package ##
+
