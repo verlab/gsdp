@@ -39,8 +39,8 @@ If you are using GSDP descriptor for academic purposes, please cite:
      
 
 ## GSDP package ##
-![Version 3.0](https://img.shields.io/badge/version-3.0-brightgreen.svg)
- .. image:: https://img.shields.io/pypi/pyversions/setuptools.svg
+![Version 3.0](https://img.shields.io/pypi/pyversions/Django.svg)
+
 ### Dependencies ###
 
 * Keras 2.0  _(Tested with 2.0.4)_  
