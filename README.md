@@ -31,7 +31,7 @@ https://www.verlab.dcc.ufmg.br
 
 ## Citation ##
 
-If you are using GSDP for academic purposes, please cite:
+If you are using GSDP descriptor for academic purposes, please cite:
 
      Prototypicality effects in global semantic description of objects
      Omar Vidal Pino, Erickson R. Nascimento, Mario F. M. Campos
