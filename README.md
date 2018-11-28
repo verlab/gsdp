@@ -37,6 +37,24 @@ If you are using GSDP descriptor for academic purposes, please cite:
      Omar Vidal Pino, Erickson R. Nascimento, Mario F. M. Campos
      IEEE Winter Conference on Applications of Computer Vision (WACV), 2019
      
+### Bibtex entry ###
+
+>@InProceedings{vidal2019wacv,  
+>title = {Prototypicality effects in global semantic description of objects},  
+booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},  
+>author = {Omar Vidal Pino and Erickson R. Nascimento and Mario F. M. Campos},  
+>Year = {2019},  
+>Address = {Hawaii, USA},  
+>month = {January},  
+>intype = {to appear in},  
+>pages = {},  
+>volume = {},  
+>number = {},  
+>doi = {},  
+>ISBN = {}  
+>}
+
+     
 
 ## GSDP package ##
 ![Version 3.0](https://img.shields.io/pypi/pyversions/Django.svg)
