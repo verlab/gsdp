@@ -1,0 +1,23 @@
+.. _intro:
+
+*******************************
+Introduction
+*******************************
+
+* `About GSDP`_
+* `Compatibility`_
+
+About GSDP
+============
+Global Semantic Description of objects based on ProtoTypes (GSDP) is an Open-Source Python package for Global Semantic Description of objects using semantic prototypes of objects categories. The GSDP descriptor package introduce a novel semantic description approach inspired on the foundation of Prototype Theory. The prototype-based description model introduced with the GSDP descriptor, retrieves the central semantic meaning of the object’s category (the prototype) and  create discriminative signatures to describe the object highlighting its most distinctive features within the category. For more information, please access the `project page <https://www.verlab.dcc.ufmg.br/global-semantic-description/wacv2019/>`_.
+
+Compatibility
+==============
+
+GSDP is compatible with Python 3.x and use Keras 2.0 as high-level neural networks API running on top of TensorFlow 1.1.
+The GSDP package requirement use Keras with its default configuration.  By default, Keras will use TensorFlow as its tensor manipulation library. `Follow these instructions <https://keras.io/backend/>`_ to configure and be sure that you use TensorFlow as Keras backend.
+
+Consequently, GSDP runs seamlessly on CPU and GPU.
+
+
+

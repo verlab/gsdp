@@ -1,0 +1,54 @@
+.. _installation:
+
+*******************************
+Installation
+*******************************
+
+* `Install GSDP from the GitHub source`_
+* `Testing the installation`_
+
+Install GSDP from the GitHub source
+===================================
+To install in Debian or Ubuntu:
+
+1. First, clone GSDP using git::
+
+    $ git clone git://github.com/verlab/gsdp
+
+2. Then, cd to the GSDP folder and run the install command::
+
+    $cd ~/gsdp/
+
+3. Install GSDP dependencies.
+
+	* GSDP for CPU-only::
+
+            $ pip install -r requirements.txt 
+
+	* GSDP with GPU support::
+
+            $ pip install -r requirements-gpu.txt 
+
+4. Download and prepare the GSDP package data, and run the install command. This step downloads the models files and prototypes (prototypes dataset) used by the GSDP descriptor for each base model::
+
+    $ python prepare_data.py
+    $ pip install .
+
+Installation steps summary::
+
+       $ git clone git://github.com/verlab/gsdp
+       $ cd ~/gsdp/
+       $ pip install -r requirements.txt 
+       $ python prepare_data.py
+       $ pip install .
+
+
+Testing the installation
+=========================
+
+>>> import gsdp
+Using TensorFlow backend.
+>>> gsdp.version()
+1.0
+
+

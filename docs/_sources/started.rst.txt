@@ -1,0 +1,62 @@
+.. _started:
+
+***********************************
+Getting started: 1 minute to GSDP
+***********************************
+GSDP use as base-models the keras deep learning models that are made available alongside pre-trained weights. These Keras models are used for feature extraction (basefeature) before the GSDP semantic feature construction. Keras models weights are downloaded automatically when instantiating a model. They are stored at ~/.keras/models/.
+
+GSDP also uses custom and pre-trained models as base-models. These custom models allow descriptions of images in the specific datasets where the models were trained. Weights  of these models are downloaded automatically when GSDP is installed and are stored at python-version/site-packages/gsdp/models/.
+
+
+Available base-models
+=====================
+
+* Custom Models for image classification with weights trained on MNIST ans CIFAR datasets:
+
+   1. simple-MNIST
+   2. simple-CIFAR (Coming Soon)
+
+* `Keras Models <https://keras.io/applications>`_ for image classification with weights trained on ImageNet:
+
+   3. `VGG16 <https://keras.io/applications/#vgg16>`_
+   4. `ResNet50 <https://keras.io/applications/#resnet50>`_ (Coming Soon)
+
+All of these architectures are compatible with TensorFlow as Keras backends.
+
+Usage examples 
+=================
+
+   For GPU support, we recommend setting tensorflow session to use memory on demand.
+
+   >>> # session config
+   >>> import tensorflow as tf
+   >>> from keras import backend as K
+   >>> config = tf.ConfigProto()
+   >>> config.gpu_options.allow_growth = True
+   >>> K.set_session(tf.Session(config=config))
+
+
+   * For Custom Models:
+
+   >>> from gsdp import GlobalSemanticDescriptor
+   >>> # setting image path
+   >>> mnist_img_path = 'mnistimg.png'
+   >>> # description model initialization (or MNIST base-model)
+   >>> gsdp_mnist = GlobalSemanticDescriptor('MNIST')
+   >>> # Image GSDP description using the image path as input 
+   >>> gsdp_feature = gsdp_mnist.feature(mnist_img_path,from_path=True)
+ 
+   * For Keras Models:
+   
+   >>> from gsdp import GlobalSemanticDescriptor
+   >>> from keras.preprocessing.image import load_img
+   >>> # setting image path
+   >>> img_test = 'cat.jpg'
+   >>> # description model initialization (for VGG16 base-model)
+   >>> gsdp = GlobalSemanticDescriptor('VGG16')
+   >>> # load and reshape the image
+   >>> img_test = load_img(img_test, 
+                           target_size=gsdp.extractor.config.input_shape(shape_2D=True))
+   >>> # Image GSDP description using PIL image as input 
+   >>> gsdp_feature = gsdp.feature(img_test)
+
