@@ -68,11 +68,18 @@ booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WAC
 * Pandas 0.20 _(Tested with 0.20.3)_ 
 
 ### Installation ###
-
+* Installation for Python 3 environment (Python3 and pip3 active):
     git clone git://github.com/verlab/gsdp
     cd gsdp/
     pip install -r requirements.txt 
     python prepare_data.py
     pip install .
- 
+    
+* Installation without Python 3 environment:
+    git clone git://github.com/verlab/gsdp
+    cd gsdp/
+    pip3 install -r requirements.txt 
+    python3 prepare_data.py
+    pip3 install .
+    
 Read more at [GSDP documentation](https://verlab.github.io/gsdp/).
