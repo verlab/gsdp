@@ -22,7 +22,7 @@ def download_gsdp_data():
         make_path_exists(output_dir)
         prototypes_url = url_datasets + prototypes_filename
         print('\n  ---> Downloading computed prototypes from: ' + prototypes_url+ ')')
-        #wget.download(prototypes_url, out=output_dir)
+        wget.download(prototypes_url, out=output_dir)
 
         if model in _CUSTOM_MODELS:
             print('\n  ---> Downloading custom model files:')
@@ -32,7 +32,7 @@ def download_gsdp_data():
                         make_path_exists(output_dir)
                         file_url = url_datasets + model_filename
                         print('\n       -> Downloading Keras-' +  model+ ' ' + file + ' from: ' + file_url + ')')
-                        #wget.download(file_url, out=output_dir)
+                        wget.download(file_url, out=output_dir)
 
 def models_resources():
     _models = _CUSTOM_MODELS + _KERAS_MODELS
