@@ -69,15 +69,15 @@ booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WAC
 
 ### Installation ###
 
-* Installation for Python 3 environment (Python3 and pip3 active):
+Installation for Python 3 environment (Python3 and pip3 active):
 
     git clone git://github.com/verlab/gsdp
     cd gsdp/
     pip install -r requirements.txt 
     python prepare_data.py
     pip install .
-    
-* Installation without Python 3 environment:
+   
+Installation without Python 3 environment:
 
     git clone git://github.com/verlab/gsdp
     cd gsdp/
