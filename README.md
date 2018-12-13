@@ -74,6 +74,5 @@ booktitle = {2019 IEEE Winter Conference on Applications of Computer Vision (WAC
     pip install -r requirements.txt 
     python prepare_data.py
     pip install .
-   
-See [project page](https://www.verlab.dcc.ufmg.br/global-semantic-description/)
-See [documentation](https://verlab.github.io/gsdp/)
+ 
+Read more at [GSDP documentation](https://verlab.github.io/gsdp/).
