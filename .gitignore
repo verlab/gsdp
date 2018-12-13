@@ -68,6 +68,13 @@ docs/_build/
 docs/
 docs/_sources/
 docs/_static/
+/.nojekyll
+/*.html
+/*.js
+/objects.inv
+_static/
+_sources/
+_images/
 
 # PyBuilder
 target/
