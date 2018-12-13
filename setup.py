@@ -20,7 +20,7 @@ setup(
     keywords="semantic description prototypes objects",
     url="https://www.verlab.dcc.ufmg.br/global-semantic-description/wacv2019/",   # project home page
     license='GPLv3',
-    packages=find_packages(exclude=('config_imagenet','dataset_tools','docs','extractors_old')),
+    packages=find_packages(exclude=('docs')),
     include_package_data=True,
     package_data={
                   # data package
@@ -28,7 +28,7 @@ setup(
                   # models package
                  'models': models_resources(), #['MNIST/data/*.h5', 'VGG16/data/*.h5','ResNet50/data/*.h5'],
                   # test package
-                 'test': ['figs/*.jpg','figs/*.png', '*.py'],
+                 'test': ['imgs/*.jpg','imgs/*.png', '*.py'],
                  },
     classifiers=[
         "Programming Language :: Python :: 3",
